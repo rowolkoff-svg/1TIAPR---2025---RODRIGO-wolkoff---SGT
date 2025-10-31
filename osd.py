@@ -1,4 +1,4 @@
-#Codigos
+# Codigos
 tarefas.py
 def criar_tarefa(tarefas, descricao, vencimento, status="pendente"):
     tarefa = {"descricao": descricao, "vencimento": vencimento, "status": status}
@@ -23,7 +23,7 @@ def remover_tarefa(tarefas, index):
     tarefas.pop(index)
     return tarefas
 
-#persistencia.py
+# Persistencia.py
 import json
 
 def salvar_tarefas(tarefas, arquivo="tarefas.json"):
@@ -38,7 +38,7 @@ def carregar_tarefas(arquivo="tarefas.json"):
         tarefas = []
     return tarefas
 
-#interface.py
+# Interface.py
 from tarefas import criar_tarefa, listar_tarefas, atualizar_tarefa, remover_tarefa
 from persistencia import salvar_tarefas, carregar_tarefas
 
@@ -85,3 +85,4 @@ def executar():
         
         else:
             print("Opção inválida. Tente novamente.")
+
