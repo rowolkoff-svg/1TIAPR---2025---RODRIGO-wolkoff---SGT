@@ -37,7 +37,7 @@
 - Validar entradas do usuário (datas, status)
 
 #  Autor / Créditos
-- Desenvolvido por: [Rodrigo WOlkoff Giorgi]
+- Desenvolvido por: [Rodrigo Wolkoff Giorgi]
 - Professor: Leonardo  
 - Curso: FIAP – 1TIAPR 
 
